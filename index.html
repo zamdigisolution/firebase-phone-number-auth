@@ -2,16 +2,18 @@
 <html>
     <head>
         <title>firebase phone number auth</title>
-        <script src="https://www.gstatic.com/firebasejs/4.5.1/firebase.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/9.0.1/firebase-app.js"></script>
         <script>
             
             var config = {
-                apiKey: "AIzaSyCDBA9as8Rv5nqy2JwX6Ja1E9ziOKJyazI",
-                authDomain: "fir-phone-number-auth.firebaseapp.com",
-                databaseURL: "https://fir-phone-number-auth.firebaseio.com",
-                projectId: "fir-phone-number-auth",
-                storageBucket: "",
-                messagingSenderId: "541176602335"
+                apiKey: "AIzaSyBMQWhLZqivwYIhLldujsUurlM-p9mUxRU",
+                authDomain: "ll-cust-subprod.firebaseapp.com",
+                databaseURL: "https://ll-cust-subprod.firebaseio.com",
+                projectId: "ll-cust-subprod",
+                storageBucket: "ll-cust-subprod.appspot.com",
+                messagingSenderId: "956727394482",
+                appId: "1:956727394482:web:a8109242d3a90f704409ab",
+                measurementId: "G-15QL6X9PPQ"
             };
 
             firebase.initializeApp(config);
@@ -23,10 +25,10 @@
     </head>
     <body>
 
-        phone <input>
+        Enter India phone +91 <input>
         
         <button onclick="auth()">auth</button>
-        <label>인증 여부 :</label>
+        <label>Whether certified: </label>
         
         <div id="recaptcha"></div>
 
